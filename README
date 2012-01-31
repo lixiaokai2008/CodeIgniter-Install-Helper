@@ -1,0 +1,12 @@
+
+YOU STILL NEED TO EDIT THE config.php FILE FOR THIS ENTRY:
+$config['encryption_key'] = 'yourRandomlyGeneratedValueHere';
+
+AND database.php TO SET THE DB NAME, HOST, USER/PASSWORD ETC.
+
+Place controllers language and views directories in application directory and then run yourhost/index.php/install
+
+TODO:
+set the $config['encryption_key'] value from the script 
+Use the form to accept db config values and set them so we just have to edit install.php to add any tables we want (or this could be done using the form as well) and then run the script.
+
